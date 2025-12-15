@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Emulicious Debug",
+            "type": "emulicious-debugger",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/tiny_gbc_rpg.gbc",
+            "emuliciousPath": "${workspaceFolder}/tools/emulicious/emulicious.jar",
+            "stopOnEntry": true,
+            "preLaunchTask": "build game",
+            "port": 58870
+        }
+    ]
+}
